@@ -1,7 +1,7 @@
 import psycopg2
 
 conn = psycopg2.connect(
-    database= 'postgres',
+    database= 'blog',
     user='postgres',
     password='123456',
     host='127.0.0.1',
